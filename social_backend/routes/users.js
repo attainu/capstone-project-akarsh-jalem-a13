@@ -95,11 +95,5 @@ router.put("/:id", async (req, res) => {
         res.status(403).json("you cant unfollow yourself");
       }
     });
-  
-
-
-
-
-
 
 module.exports = router;
